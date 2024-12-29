@@ -9,7 +9,7 @@ export function Header() {
         <h1>Hi, i'm Matheus! 👋</h1>
         <h2>Full-stack Developer</h2>
     </div>
-    <Image src="/me.jpg" alt="Vercel logomark" width={200} height={200} />
+    <Image src="/me.jpg" alt="Vercel logomark" width={400} height={400} />
 </div>
     );
 }
