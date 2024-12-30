@@ -1,5 +1,4 @@
 import { SectionTitle } from "../sectionTitle/section-title";
-import Image from "next/image";
 import "./experience.scss";
 import { Skill } from "../skill/skill";
 
