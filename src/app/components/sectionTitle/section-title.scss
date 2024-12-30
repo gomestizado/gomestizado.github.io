@@ -4,14 +4,16 @@
     text-align: center;
     line-height: 36px;
     color: var(--text-primary);
+    // border: 1px solid green;
 
-    margin-top: 28px;
-    margin-bottom: 12px;
+    // margin-top: 32px;
+    margin-bottom: 8px;
 
     @media (min-width: 768px) {
         font-size: 24px;
         line-height: 36px;
         text-align: start;
+        margin-top: 0px;
     }
 }
 

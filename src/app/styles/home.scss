@@ -1,14 +1,17 @@
 .container {
     padding: 40px 32px;
     display: grid;
-    gap: 24px;
+    gap: 50px 0px;
     justify-items: center;
+    align-items: start;
     grid-template-rows: repeat(4, auto);
     grid-template-areas:
     "header"
     "btns"
     "experience"
     "info";
+
+    // border: 1px solid red;
 
     .buttons {
         display: flex;
@@ -17,6 +20,9 @@
         flex-direction: column;
         gap: 24px;
         width: 100%;
+        max-width: 500px;
+        
+        // border: 1px solid red;
 
         grid-area: btns;
 
@@ -43,18 +49,30 @@
     }    
 }
 
-
 @media (min-width: 768px) {
     .container {
-        padding: 70px 60px;
+        padding: 70px 60px 40px 60px;
         height: 100vh;
         grid-template-rows: fit-content(100%);
-        grid-template-columns: 60% 30%;
-        align-items: center;
-        justify-items: start;
-        justify-content: space-between;
+        grid-template-columns: 55% 35%;
+
+        gap: 3rem 0rem;
+
+        justify-items: start; //alinha a linha na horizontal
+        align-items: center; //alinha a linha na vertical
+        align-content: center; //alinha o conteúdo na vertical
+        justify-content: center; //alinha o conteúdo na horizontal
+
         grid-template-areas:
         "header info"
-        "experience btns"
+        "experience btns";
+
+        .buttons {
+    
+            .btn-primary {
+                width: 80%;
+            }
+        }
     }
+
 }
