@@ -1,5 +1,5 @@
 .container {
-    padding: 40px 32px;
+    padding: 40px 30px;
     display: grid;
     gap: 60px 0px;
     justify-items: center;
@@ -53,8 +53,8 @@
     .container {
         padding: 70px 60px 40px 60px;
         height: 100vh;
-        grid-template-rows: fit-content(100%);
-        grid-template-columns: 55% 35%;
+        grid-template-rows: 30% 60%;
+        grid-template-columns: 65% 32%;
 
         gap: 3rem 0rem;
 

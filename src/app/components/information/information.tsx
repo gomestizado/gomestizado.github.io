@@ -7,8 +7,8 @@ export function Info() {
         <div className="personal-info">
             <SectionTitle text="Education 🎓"/>
             <div className="educational-info">
-                <span></span>
-                <span>Information Systems Bachelor's Degree <br/> Universidade Veiga de Almeida</span>
+                <span>Information Systems Bachelor's Degree</span>
+                <span>Universidade Veiga de Almeida</span>
             </div>
         </div>
 
