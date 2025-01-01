@@ -1,9 +1,9 @@
 .container {
     padding: 40px 30px;
     display: grid;
-    gap: 60px 0px;
-    justify-items: center;
-    align-items: start;
+    //gap: 60px 0px;
+    //justify-items: center;
+    //align-items: start;
     grid-template-rows: repeat(4, auto);
     grid-template-areas:
     "header"
@@ -11,7 +11,7 @@
     "experience"
     "info";
 
-    // border: 1px solid red;
+    //border: 1px solid red;
 
     .buttons {
         display: flex;
@@ -20,7 +20,7 @@
         flex-direction: column;
         gap: 24px;
         width: 100%;
-        max-width: 500px;
+        //max-width: 500px;
         
         // border: 1px solid red;
 
@@ -51,23 +51,31 @@
 
 @media (min-width: 768px) {
     .container {
-        padding: 70px 60px 40px 60px;
+        padding: 0% 60px 0% 60px;
         height: 100vh;
-        grid-template-rows: 30% 60%;
-        grid-template-columns: 65% 32%;
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 50% 50%;
 
-        gap: 3rem 0rem;
+        gap: 0px 100px;
 
-        justify-items: start; //alinha a linha na horizontal
-        align-items: center; //alinha a linha na vertical
-        align-content: center; //alinha o conteúdo na vertical
-        justify-content: center; //alinha o conteúdo na horizontal
+        //justify-items: center; //alinha a linha na horizontal
+        //align-items: start; //alinha a linha na vertical
+        //align-content: center; //alinha o conteúdo na vertical
+        //justify-content: center; //alinha o conteúdo na horizontal
 
         grid-template-areas:
         "header btns"
         "experience info";
 
         .buttons {
+            width: 100%;
+            max-width: 400px;
+            height: 100%;
+            max-height: 200px; 
+
+            justify-self: center; // Alinha horizontalmente no canto esquerdo
+            align-self: center; // Alinha verticalmente no canto inferior
     
             .btn-primary {
                 width: 80%;
