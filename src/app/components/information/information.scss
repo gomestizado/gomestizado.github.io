@@ -1,11 +1,15 @@
 .infos {
   display: flex;
   flex-direction: column;
-  //align-items: center;
-  width: 100%;
-  //max-width: 400px;
   grid-area: info;
-  //gap: 50px;
+
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+
+  gap: 40px;
+
+  justify-self: center;
 
   // border: 1px solid rgb(55, 0, 255);
 
@@ -48,10 +52,10 @@
     justify-self: center; // Alinha horizontalmente no canto esquerdo
     align-self: start; // Alinha verticalmente no canto superior
     
-    justify-content: space-between;
-    align-items: flex-start;
-    
+    gap: 0px;
 
+    justify-content: space-between;
+    align-items: flex-start;  
 
     .personal-info {
       .educational-info {

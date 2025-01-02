@@ -12,7 +12,7 @@ export function Header() {
           <TypeAnimation
             sequence={["Hi, i'm Matheus! 👋"]}
             wrapper="span"
-            speed={40}
+            speed={34}
             repeat={0}
           />
         </h1>

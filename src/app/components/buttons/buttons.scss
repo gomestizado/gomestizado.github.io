@@ -1,0 +1,54 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  grid-area: btns;
+
+  width: 100%;
+  max-width: 350px;
+
+  gap: 24px;
+
+  justify-self: center;  
+  align-items: center;
+
+  // border: 1px solid red;
+
+
+  .btn-primary {
+    background: linear-gradient(90deg, #777cf4 2.62%, #f47777 93.38%);
+    border-radius: 24px;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+
+    text-decoration: none;
+
+    color: var(--text-primary);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .buttons {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 200px;
+
+    justify-content: center;
+    justify-self: center; // Alinha horizontalmente no canto esquerdo
+    align-self: center; // Alinha verticalmente no canto inferior
+
+    .btn-primary {
+      width: 80%;
+    }
+  }
+}
