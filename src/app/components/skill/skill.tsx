@@ -12,7 +12,8 @@ interface SkillProps {
 }
 
 export function Skill(props: SkillProps) {
-  
+
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [animate, setAnimate] = useState(false);
 
   useEffect(() => {
