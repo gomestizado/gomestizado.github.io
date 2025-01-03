@@ -10,12 +10,26 @@
     "header"
     "btns"
     "experience"
-    "info";    
+    "info";   
+    
+    // border: 1px solid red;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1300px) {
+    .body {
+        justify-self: center;
+    
+        width: 100%; 
+        max-width: 1920px;
+        // width: 1366px; 
+        // min-width: 1200px;   
+    
+        // border: 1px solid blue;
+        
+    }
+
     .container {
-        padding: 0% 60px 0% 60px;
+        padding: 0px;
         
         display: grid;        
         grid-template-rows: 50% 50%;
@@ -23,7 +37,7 @@
         
         height: 100vh;
 
-        gap: 0px 100px;
+        gap: 0px 0%;
 
         grid-template-areas:
         "header btns"

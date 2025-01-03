@@ -11,9 +11,12 @@
 
   justify-self: center;
 
-  // border: 1px solid rgb(55, 0, 255);
-
+  // border: 1px solid blue;
+  
   .personal-info {
+
+    // border: 1px solid yellow;
+
     .educational-info {
       display: flex;
       flex-direction: column;
@@ -26,9 +29,10 @@
     .languages-info {
       display: flex;
       flex-direction: column;
-      gap: 18px;
       align-items: flex-start;
       width: 100%;
+
+      gap: 18px;
 
       // border: 1px solid white;
     }
@@ -43,13 +47,13 @@
     }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 1300px) {
     width: 100%;
     max-width: 400px;
     height: 100%;
     max-height: 250px; 
     
-    justify-self: center; // Alinha horizontalmente no canto esquerdo
+    justify-self: end; // Alinha horizontalmente no canto esquerdo
     align-self: start; // Alinha verticalmente no canto superior
     
     gap: 0px;
@@ -57,7 +61,12 @@
     justify-content: space-between;
     align-items: flex-start;  
 
+    margin-right: 10%;
+
     .personal-info {
+
+      width: 100%;
+
       .educational-info {
         display: flex;
         flex-direction: column;

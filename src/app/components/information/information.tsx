@@ -11,7 +11,7 @@ export function Info() {
                 <span>Universidade Veiga de Almeida</span>
             </div>
         </div>
-
+                
         <div className="personal-info">
             <SectionTitle text="Languages 💬"/>
             <div className="languages-info">

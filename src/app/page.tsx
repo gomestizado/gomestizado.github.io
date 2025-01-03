@@ -7,11 +7,13 @@ import "./styles/home.scss";
 
 export default function Home() {
   return (
-    <main className="container">
-      <Header/>
-      <Experience/>
-      <Info/>
-      <Buttons/>
+    <main className="body">
+      <div className="container">
+        <Header/>
+        <Experience/>
+        <Info/>
+        <Buttons/>
+      </div>
     </main>
   );
 }

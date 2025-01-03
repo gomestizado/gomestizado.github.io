@@ -36,7 +36,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1300px) {
   .buttons {
     width: 100%;
     max-width: 400px;
@@ -44,8 +44,11 @@
     max-height: 200px;
 
     justify-content: center;
-    justify-self: center; // Alinha horizontalmente no canto esquerdo
+
+    justify-self: end; // Alinha horizontalmente no canto esquerdo
     align-self: center; // Alinha verticalmente no canto inferior
+
+    margin-right: 10%;
 
     .btn-primary {
       width: 80%;
