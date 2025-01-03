@@ -1,6 +1,5 @@
 import { SectionTitle } from "../sectionTitle/section-title";
 import "./experience.scss";
-import { Skill } from "../skill/skill";
 
 export function Experience() {
   return (
