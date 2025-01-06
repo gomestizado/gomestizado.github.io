@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Web - [gomestizado.github.io](https://gomestizado.github.io)
 
-## Getting Started
+Este repositório contém o código-fonte do meu portfólio pessoal desenvolvido em **React** e **Next.js**.
 
-First, run the development server:
+## 🖥️ Sobre o Projeto
+
+O objetivo deste portfólio é apresentar minhas informações profissionais, experiência, habilidades técnicas e permitir que recrutadores entrem em contato de forma prática.
+
+
+## 🚀 Tecnologias Utilizadas
+
+- **React**
+- **Next.js**
+- **SASS**
+- **ESLint**
+- **GitHub Actions**
+- **GitHub Pages**
+
+## 📦 Deploy
+
+O deploy é realizado automaticamente através do GitHub Actions. Após cada push na branch principal, o código é compilado e publicado no GitHub Pages. O resultado final pode ser acessado em: [gomestizado.github.io](https://gomestizado.github.io).
+
+
+
+## 🛠️ Como Rodar o Projeto Localmente
+
+1. Clone o repositório:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/gomestizado/gomestizado/gomestizado.github.io.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Acesse a pasta do projeto:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd gomestizado.github.io/
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Instale as dependências:
 
-## Learn More
+```bash
+yarn install
+# ou
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Inicie o servidor de desenvolvimento:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+yarn dev
+# ou
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. Acesse o projeto em: [http://localhost:3000](http://localhost:3000)
 
-## Deploy on Vercel
+## 🌟 Planos Futuros
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Adicionar um botão funcional para visualização e download do currículo em PDF.
+- Exibir projetos com prints e links para os respectivos repositórios e demonstrações em tempo real.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Feedbacks e Contribuições
+
+Aceito feedbacks e contribuições para melhorias.
+Entre em contato pelos seguintes canais:
+
+- [LinkedIn](https://www.linkedin.com/in/gomesmatheus/)
+- [E-mail](mailto:matheus_mgc@yahoo.com.br)
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+---
+
+### 🖌️ Créditos
+
+O design do portfólio foi inspirado em um modelo apresentado pela Fernanda Kipper ([@kipperdev](https://github.com/Fernanda-Kipper)), com adaptações pessoais para atender às minhas necessidades.
