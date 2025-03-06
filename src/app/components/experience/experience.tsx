@@ -6,7 +6,7 @@ export function Experience() {
     <div className="experience">
       <div className="experience-header">
         <SectionTitle text="Experience 💻" />
-        <p>3 years managing servers, networks and infrastructure, 3 years as a front-end developer and 2 years of internship in systems analysis.</p>
+        <p>4 years managing servers, networks and infrastructure, 5 years as a front-end developer and 2 years of internship in systems analysis.</p>
       </div>
       <div className="experience-skills">
         {/* <img src="https://img.shields.io/badge/ansible-%231A1918.svg?style=flat-square&logo=ansible&logoColor=white" alt="Ansible" /> */}
