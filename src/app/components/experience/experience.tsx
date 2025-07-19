@@ -9,7 +9,7 @@ export function Experience() {
         <p>4 years managing servers, networks and infrastructure, 5 years as a front-end developer and 2 years of internship in systems analysis.</p>
       </div>
       <div className="experience-skills">
-        {/* <img src="https://img.shields.io/badge/ansible-%231A1918.svg?style=flat-square&logo=ansible&logoColor=white" alt="Ansible" /> */}
+        <img src="https://img.shields.io/badge/ansible-%231A1918.svg?style=flat-square&logo=ansible&logoColor=white" alt="Ansible" />
         <img src="https://img.shields.io/badge/Bash_script-%23121011.svg?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash Script" />
         <img src="https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
         <img src="https://img.shields.io/badge/ESLint-4B3263?style=flat-square&logo=eslint&logoColor=white" alt="ESLint" />
