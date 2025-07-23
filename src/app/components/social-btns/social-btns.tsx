@@ -8,7 +8,7 @@ import "./social-btns.scss";
 export function SocialBtns(){
     return(
     <div className="social">
-        <a href="https://www.linkedin.com/in/gomesmatheus/" target="_blank">
+        <a href="https://www.linkedin.com/in/matheusgcoelho/" target="_blank">
             <LinkedInIcon/>
         </a>
         <a href="https://github.com/gomestizado" target="_blank">
