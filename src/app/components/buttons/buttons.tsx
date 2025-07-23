@@ -8,7 +8,7 @@ export function Buttons() {
   return (
     <div className="buttons">
       <SocialBtns />
-      <a className="btn-primary" href="/curriculo.pdf" target="_blank" rel="noopener noreferrer">
+      <a className="btn-primary" href="/curriculoMatheusCoelho.pdf" target="_blank" rel="noopener noreferrer">
         Currículo
         <DownloadIcon />
       </a>
