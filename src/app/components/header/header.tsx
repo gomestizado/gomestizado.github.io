@@ -10,29 +10,32 @@ export function Header() {
       <div className="header-text">
         <h1>
           <TypeAnimation
-            sequence={["Hi, i'm Matheus! 👋"]}
+            sequence={["Olá, eu sou o Matheus! 👋"]}
             wrapper="span"
             speed={34}
             repeat={0}
           />
         </h1>
         <h2>
+          Dev
           <TypeAnimation
             preRenderFirstString={true}
             sequence={[
               1300,
+              "",
+              500,
               "Front-end",
               500,
               "Back-end",
               500,
               "Full-stack",
               500,
+              "Ops/Cloud"
             ]}
             repeat={0}
+            speed={40}
             cursor={false}
           />
-          &nbsp;
-          Developer
         </h2>
       </div>
       <Image src="/me.jpg" alt="Vercel logomark" width={300} height={300} />

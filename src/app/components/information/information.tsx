@@ -5,9 +5,9 @@ export function Info() {
     return (
     <div className="infos">
         <div className="personal-info">
-            <SectionTitle text="Education 🎓"/>
+            <SectionTitle text="Educação 🎓"/>
             <div className="educational-info">
-                <span>Information Systems Bachelor's Degree</span>
+                <span>Sistemas de Informação (Concluído)</span>
                 <span>Universidade Veiga de Almeida</span>
             </div>
         </div>
@@ -15,8 +15,8 @@ export function Info() {
         <div className="personal-info">
             <SectionTitle text="Languages 💬"/>
             <div className="languages-info">
-                <span>EN - Intermediate</span>
-                <span>PT-BR - Native Speaker</span>
+                <span>EN - Intermediário (B1)</span>
+                <span>PT-BR - Nativo</span>
             </div>
         </div>
     </div>

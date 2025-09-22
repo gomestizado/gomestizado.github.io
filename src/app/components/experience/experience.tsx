@@ -5,14 +5,14 @@ export function Experience() {
   return (
     <div className="experience">
       <div className="experience-header">
-        <SectionTitle text="Experience 💻" />
-        <p>4 years managing servers, networks and infrastructure, 5 years as a front-end developer and 2 years of internship in systems analysis.</p>
+        <SectionTitle text="Experiência 💻" />
+        <p>4 anos na gestão de servidores, redes e infraestrutura, 5 anos em desenvolvimento e manutenção de soluções web e 2 anos de estágio em análise de sistemas no setor financeiro.</p>
       </div>
       <div className="experience-skills">
         <img src="https://img.shields.io/badge/ansible-%231A1918.svg?style=flat-square&logo=ansible&logoColor=white" alt="Ansible" />
+        <img src="https://custom-icon-badges.demolab.com/badge/AWS-%23FF9900.svg?style=flat-square&logo=aws&logoColor=white" alt="AWS" />
         <img src="https://img.shields.io/badge/Bash-%23121011.svg?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" />
         <img src="https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-        <img src="https://img.shields.io/badge/ESLint-4B3263?style=flat-square&logo=eslint&logoColor=white" alt="ESLint" />
         <img src="https://img.shields.io/badge/Firebase-%23e24329.svg?style=flat-square&logo=firebase&logoColor=white" alt="Firebase" />
         <img src="https://img.shields.io/badge/Github-%23545DF0.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
         <img src="https://img.shields.io/badge/Github%20Actions-%232671E5.svg?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
@@ -33,6 +33,7 @@ export function Experience() {
         <img src="https://img.shields.io/badge/React-%2320232a.svg?style=flat-square&logo=react&logoColor=white" alt="React" />
         <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=flat-square&logo=SASS&logoColor=white" alt="SASS" />
         <img src="https://img.shields.io/badge/Tailwindcss-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
+        <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
         <img src="https://img.shields.io/badge/Typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
         <img src="https://img.shields.io/badge/Vercel-%23000000.svg?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
         <img src="https://img.shields.io/badge/WordPress-%23117AC9.svg?style=flat-square&logo=WordPress&logoColor=white" alt="WordPress" />
