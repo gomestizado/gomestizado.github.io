@@ -6,7 +6,7 @@ export function Experience() {
     <div className="experience">
       <div className="experience-header">
         <SectionTitle text="Experiência 💻" />
-        <p>4 anos na gestão de servidores, redes e infraestrutura, 5 anos em desenvolvimento e manutenção de soluções web e 2 anos de estágio em análise de sistemas no setor financeiro.</p>
+        <p>Desenvolvedor com experiência em web, infraestrutura e dados. Hoje atuo com Python, Power BI e modelagem de dados no Instituto Oswaldo Cruz (Fiocruz). Somo 5 anos em desenvolvimento web, 4 anos em servidores e redes e 2 anos de estágio em análise de sistemas no setor financeiro.</p>
       </div>
       <div className="experience-skills">
         <img src="https://img.shields.io/badge/ansible-%231A1918.svg?style=flat-square&logo=ansible&logoColor=white" alt="Ansible" />
