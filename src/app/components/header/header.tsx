@@ -17,22 +17,20 @@ export function Header() {
           />
         </h1>
         <h2>
-          Dev
+          {"Analista de "}
           <TypeAnimation
             preRenderFirstString={true}
             sequence={[
-              1300,
-              "",
-              500,
-              "Front-end",
-              500,
-              "Back-end",
-              500,
-              "Full-stack",
-              500,
-              "Ops/Cloud"
+              "Sistemas",
+              1800,
+              "Dados",
+              1800,
+              "BI",
+              1800,
+              "Infraestrutura",
+              1800,
             ]}
-            repeat={0}
+            repeat={Infinity}
             speed={40}
             cursor={false}
           />
