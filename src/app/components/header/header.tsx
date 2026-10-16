@@ -38,7 +38,7 @@ export function Header() {
           />
         </h2>
       </div>
-      <Image src="/me.jpg" alt="Vercel logomark" width={300} height={300} />
+      <Image src="/me.jpg" alt="Foto de Matheus Coelho" width={300} height={300} />
     </div>
   );
 }
