@@ -2,17 +2,13 @@
   display: flex;
   flex-direction: column;
   grid-area: btns;
-
   width: 100%;
   max-width: 350px;
-
   gap: 24px;
-
   justify-self: center;  
   align-items: center;
 
   // border: 1px solid red;
-
 
   .btn-primary {
     background: linear-gradient(90deg, #777cf4 2.62%, #f47777 93.38%);
@@ -20,6 +16,8 @@
     width: 100%;
     padding: 12px;
     text-align: center;
+
+    // border: 1px solid green;
 
     text-decoration: none;
 
@@ -42,13 +40,13 @@
     max-width: 400px;
     height: 100%;
     max-height: 200px;
+    margin-right: 10%;
 
     justify-content: center;
+    align-content: start;
 
     justify-self: end; // Alinha horizontalmente no canto esquerdo
     align-self: center; // Alinha verticalmente no canto inferior
-
-    margin-right: 10%;
 
     .btn-primary {
       width: 65%;
