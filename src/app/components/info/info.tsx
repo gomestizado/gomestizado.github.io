@@ -1,4 +1,3 @@
-import { SectionTitle } from "../sectionTitle/section-title";
 import "./info.scss";
 
 type Badge = { name: string; src: string };
